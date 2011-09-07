@@ -8,4 +8,4 @@ class Greeter
 end
 
 myname = Greeter.new
-myname.hello "Prakhar"
+myname.hello ARGV.first

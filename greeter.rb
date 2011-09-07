@@ -11,7 +11,7 @@ module GreetingAndFarewell
     @name = new_name
   end
   
-	def hello name
+	def hello
 		p "Hello #{name}!"
 	end
 	
